@@ -1,0 +1,87 @@
+body, header, nav, main, footer {
+    margin-top: 0;
+  }
+  
+    
+  .bg-custom-color {
+    background-color: #143a3e;
+}
+
+
+.facultades-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .facultad-column {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .facultad-content {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #f0f0f0; 
+  }
+
+  .inicio-content {
+    position: relative;  
+    border-radius: 10px;
+    background-color: #f0f0f0; 
+  }
+  
+  .facultad-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .facultad-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.7); /* Color de fondo con opacidad */
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .facultad-content:hover .facultad-image {
+    transform: scale(1.1);
+  }
+  
+  .facultad-content:hover .facultad-text {
+    opacity: 1;
+  }
+
+  .containerfoo {
+    text-align: right;  /* Cambiar a 'center' para centrar los íconos horizontalmente */
+    position: relative;
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+  }
+  
+  .containerfoo a {
+    display: inline-block;  /* Hace que los enlaces (íconos) estén en línea horizontal */
+    margin-right: 10px;  /* espacio entre los íconos */
+  }
+  
+  #footer-info {
+    font-size: 15px;
+    color: #88c426;  /* color del texto */
+    margin-bottom: 10px;  /*  espacio entre el texto y los íconos */
+  }
+  
+  #footer-info, #footer-info a {
+    font-weight: bold;
+    font-style: normal;
+    text-transform: none;
+    text-decoration: none;
+  }
+  
+
+  
+  
